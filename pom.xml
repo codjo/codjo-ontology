@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+     | POM Relationships
+     -->
+
+    <parent>
+        <groupId>net.codjo.pom</groupId>
+        <artifactId>codjo-pom-library</artifactId>
+        <version>SNAPSHOT</version>
+    </parent>
+    <groupId>net.codjo.ontology</groupId>
+    <artifactId>codjo-ontology</artifactId>
+    <version>1.6-SNAPSHOT</version>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>net.codjo.ontology</groupId>
+                <artifactId>codjo-ontology-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.ontology</groupId>
+                <artifactId>codjo-ontology-generator</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!--
+     | Build Settings
+     -->
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>codjo-ontology-common</module>
+        <module>codjo-ontology-generator</module>
+    </modules>
+
+    <!--
+    | Project Information
+    -->
+
+    <name>Lib &gt; Ontology</name>
+
+    <!--
+     | Environment Information
+     -->
+
+    <scm>
+        <connection>scm:git:https://github.com/codjo/codjo-ontology.git</connection>
+        <developerConnection>scm:git:https://github.com/codjo/codjo-ontology.git</developerConnection>
+        <url>https://github.com/codjo/codjo-ontology</url>
+    </scm>
+</project>

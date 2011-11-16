@@ -1,0 +1,18 @@
+<ontology>
+    <name>sample</name>
+
+    <protegeFile>sample.pont</protegeFile>
+
+    <relationships>
+        <relationship>
+            <action>GetProductAction</action>
+            <result>GetProductResponse</result>
+        </relationship>
+    </relationships>
+
+    <generation>
+        <packageName>net.codjo.fubar</packageName>
+        <xsdRootNode>maRacine</xsdRootNode>
+        <outputDirectory>..\..\..\target\sample-sources\</outputDirectory>
+    </generation>
+</ontology>

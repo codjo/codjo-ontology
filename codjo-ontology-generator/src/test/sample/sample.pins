@@ -1,0 +1,47 @@
+; Fri Apr 18 08:22:31 CEST 2008
+; 
+;+ (version "3.3.1")
+;+ (build "Build 430")
+
+([AssetDerivative] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([AssetDerivativeRiskSel] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([Branch] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([Classifier] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([GetProductAction] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([GetProductResponse] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([Part] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([project+annotation] of  %3APROJECT-ANNOTATION
+
+	(%3ALOCATION "C:\\Dev\\projects\\mint\\mint-ontology\\src\\main\\java")
+	(%3AONTOLOGYNAME "Product")
+	(%3APACKAGE "com.agf.mint.ontology")
+	(%3ASUPPORT "j2se"))
+
+([Segment] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
+
+([Status] of  %3AJADE-CLASS
+
+	(%3AJADE-IGNORE FALSE))
