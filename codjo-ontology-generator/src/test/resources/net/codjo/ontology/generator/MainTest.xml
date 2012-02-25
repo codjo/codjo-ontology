@@ -13,6 +13,6 @@
     <generation>
         <packageName>net.codjo.fubar</packageName>
         <xsdRootNode>maRacine</xsdRootNode>
-        <outputDirectory>.\target\generated-sources\</outputDirectory>
+        <outputDirectory>./target/generated-sources/</outputDirectory>
     </generation>
 </ontology>
