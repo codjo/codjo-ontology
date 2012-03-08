@@ -31,8 +31,8 @@ public class MainTest extends TestCase {
             fail();
         }
         catch (IllegalArgumentException ex) {
-            assertEquals("Fichier de configuration introuvable : bad\\path\\sample.pont",
-                         ex.getLocalizedMessage());
+            assertEquals("Fichier de configuration introuvable : bad/path/sample.pont",
+                         ex.getLocalizedMessage().replaceAll("\\\\", "/"));
         }
     }
 
@@ -46,8 +46,7 @@ public class MainTest extends TestCase {
         assertEquals("product", configuration.getName());
 
         assertEquals("net.codjo.fubar", configuration.getGeneration().getPackageName());
-        assertEquals(new File("./target/generated-sources/"),
-                     configuration.getGeneration().getOutputDirectory());
+        assertEquals(new File("./target/generated-sources/"), configuration.getGeneration().getOutputDirectory());
         assertEquals("maRacine", configuration.getGeneration().getXsdRootNode());
     }
 
