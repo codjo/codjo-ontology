@@ -32,7 +32,7 @@ public class MainTest extends TestCase {
         }
         catch (IllegalArgumentException ex) {
             assertEquals("Fichier de configuration introuvable : bad/path/sample.pont",
-                         ex.getLocalizedMessage());
+                         ex.getLocalizedMessage().replaceAll("\\\\", "/"));
         }
     }
 
