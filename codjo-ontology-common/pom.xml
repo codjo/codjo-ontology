@@ -11,7 +11,7 @@
     <parent>
         <groupId>net.codjo.ontology</groupId>
         <artifactId>codjo-ontology</artifactId>
-        <version>1.6</version>
+        <version>1.7-SNAPSHOT</version>
     </parent>
     <dependencies>
         <dependency>
